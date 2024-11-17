@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo 웹앱</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+<body>
+    <div class="container mt-5 text-center">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvvpihMQRdz9mNQWY1PXkqmMAC0wlGDVBgyH5JqnG8G9fQQyk5p5bfnjhX6w&s" alt="시간은 금이다" class="img-fluid mb-3">
+        <h2 class="text-muted">시간은 금이다</h2>
+        <h1>할 일 목록</h1>
+        <div class="input-group mb-3">
+            <input type="text" id="todoInput" class="form-control" placeholder="할 일을 입력하세요">
+            <div class="input-group-append">
+                <button id="addButton" class="btn btn-primary">추가</button>
+            </div>
+        </div>
+        <ul id="todoList" class="list-group"></ul>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
